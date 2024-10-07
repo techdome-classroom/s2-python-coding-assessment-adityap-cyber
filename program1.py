@@ -21,7 +21,7 @@ class Solution(object):
                 
                 stack.append(char)
         
-        # In the end, if the stack is empty, then we have a valid set of parentheses
+        
         return not stack
         pass
 
