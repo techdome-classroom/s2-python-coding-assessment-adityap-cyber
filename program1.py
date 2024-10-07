@@ -11,7 +11,7 @@ class Solution(object):
       
         for char in s:
             if char in bracket_map:
-                # Pop the top element from the stack if not empty, else assign '#'
+                
                 top_element = stack.pop() if stack else '#'
                 
                 # If the mapping for this bracket doesn't match the stack's top, return False
