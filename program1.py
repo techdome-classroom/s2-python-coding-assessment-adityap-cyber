@@ -14,7 +14,7 @@ class Solution(object):
                 
                 top_element = stack.pop() if stack else '#'
                 
-                # If the mapping for this bracket doesn't match the stack's top, return False
+                
                 if bracket_map[char] != top_element:
                     return False
             else:
