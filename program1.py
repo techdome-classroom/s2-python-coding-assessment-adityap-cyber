@@ -8,7 +8,7 @@ class Solution(object):
        
         stack = []
         
-        # Iterate over each character in the string
+      
         for char in s:
             if char in bracket_map:
                 # Pop the top element from the stack if not empty, else assign '#'
