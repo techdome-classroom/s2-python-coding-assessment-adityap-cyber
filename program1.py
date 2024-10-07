@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         bracket_map = {')': '(', '}': '{', ']': '['}
-        # Stack to keep track of opening brackets
+       
         stack = []
         
         # Iterate over each character in the string
