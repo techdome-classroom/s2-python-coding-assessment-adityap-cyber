@@ -18,7 +18,7 @@ class Solution(object):
                 if bracket_map[char] != top_element:
                     return False
             else:
-                # Push the opening bracket onto the stack
+                
                 stack.append(char)
         
         # In the end, if the stack is empty, then we have a valid set of parentheses
